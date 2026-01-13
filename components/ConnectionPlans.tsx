@@ -25,7 +25,7 @@ const ConnectionPlans: React.FC = () => {
             </div>
             <div className="absolute bottom-8 left-8 right-8 glass-overlay p-10 rounded-[2.5rem] transform transition-transform duration-500 group-hover:-translate-y-2">
               <h3 className="text-3xl font-bold text-white mb-3">Paket Internet Telkomsel</h3>
-              <p className="text-slate-200 mb-8 leading-relaxed font-light">Nikmati layanan internet mobile yang lancar dan terjangkau untuk semua kebutuhanmu. Banyak pilihan paket sesuai kebutuhanmu dan pilih hiburan sesukamu.</p>
+              <p className="text-slate-200 mb-8 leading-relaxed font-light">Nikmati layanan internet mobile yang lancar dan terjangkau untuk semua kebutuhanmu.</p>
               <a
                 href="https://www.telkomsel.com/SIMPATI"
                 target="_blank"
