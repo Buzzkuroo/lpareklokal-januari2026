@@ -37,7 +37,7 @@ const HERO_DATA: HeroSlide[] = [
     id: 'mobile',
     badge: 'Internet Mobile',
     title: ['Pilih Sesuai Lifestylemu', '#TerbaikUntukmu'],
-    description: 'Nikmati internet mobile yang lancar dan terjangkau untuk semua kebutuhanmu. Banyak pilihan paket sesuai kebutuhanmu dan pilih hiburan sesukamu.',
+    description: 'Nikmati internet mobile yang lancar dan terjangkau untuk semua kebutuhanmu.',
     cta: 'Pelajari Lebih Lanjut',
     link: 'https://www.telkomsel.com/SIMPATI',
     stats: [
@@ -150,7 +150,7 @@ const Hero: React.FC = () => {
                 href={current.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`${current.btnColor} text-white px-8 py-4 sm:px-10 sm:py-5 rounded-2xl font-bold text-lg transition-all ${current.shadowColor} shadow-2xl hover:brightness-125 active:scale-95 flex items-center gap-3 group`}
+                className={`${current.btnColor} text-white px-8 py-4 sm:px-10 sm:py-5 rounded-2xl font-bold text-base sm:text-lg transition-all ${current.shadowColor} shadow-2xl hover:brightness-125 active:scale-95 flex items-center gap-3 group`}
               >
                 {current.cta}
                 <span className="material-symbols-outlined text-xl group-hover:translate-x-1 transition-transform">arrow_forward</span>
