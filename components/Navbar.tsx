@@ -28,15 +28,15 @@ const Navbar: React.FC<NavbarProps> = ({ onToggleDarkMode, isDarkMode, onNavigat
       </div>
 
       {/* Desktop Menu */}
-      <div className="hidden md:flex gap-8 items-center text-sm font-semibold text-slate-600 dark:text-slate-300">
+      {/* <div className="hidden md:flex gap-8 items-center text-sm font-semibold text-slate-600 dark:text-slate-300">
         <button
           onClick={() => onNavigate('home')}
           className={`transition-colors relative group ${currentView === 'home' ? 'text-primary' : 'hover:text-primary'}`}
         >
           Home
           <span className={`absolute -bottom-1 left-0 h-0.5 bg-primary transition-all duration-300 ${currentView === 'home' ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
-        </button>
-        {/* <button
+        </button> */}
+      {/* <button
           onClick={() => onNavigate('telkomsel')}
           className={`transition-colors relative group ${currentView === 'telkomsel' ? 'text-primary' : 'hover:text-primary'}`}
         >
@@ -50,7 +50,7 @@ const Navbar: React.FC<NavbarProps> = ({ onToggleDarkMode, isDarkMode, onNavigat
           IndiHome
           <span className={`absolute -bottom-1 left-0 h-0.5 bg-primary transition-all duration-300 ${currentView === 'indihome' ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
         </button> */}
-      </div>
+      {/* </div> */}
 
       <div className="flex items-center gap-4">
         <button
@@ -64,7 +64,7 @@ const Navbar: React.FC<NavbarProps> = ({ onToggleDarkMode, isDarkMode, onNavigat
         </button>
 
         {/* Mobile Menu Button - Only show when menu is closed */}
-        {!isMobileMenuOpen && (
+        {/* {!isMobileMenuOpen && (
           <button
             onClick={() => setIsMobileMenuOpen(true)}
             className="md:hidden p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
@@ -74,7 +74,7 @@ const Navbar: React.FC<NavbarProps> = ({ onToggleDarkMode, isDarkMode, onNavigat
               menu
             </span>
           </button>
-        )}
+        )} */}
 
         <div className="h-7 hidden sm:flex items-center">
           <img

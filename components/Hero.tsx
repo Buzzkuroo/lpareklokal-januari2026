@@ -69,7 +69,7 @@ const HERO_DATA: HeroSlide[] = [
     link: 'https://www.telkomsel.com/indihome/',
     stats: [
       { label: 'Kecepatan Up To', value: '150Mbps' },
-      { label: 'Harga Mulai', value: '200Ribuan' },
+      { label: 'Harga Mulai', value: '200Ribu' },
       { label: 'Channel Hiburan', value: '140+' }
     ],
     themeColor: 'from-[#B90024] to-[#FD195E]',
